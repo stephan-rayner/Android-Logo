@@ -1,0 +1,126 @@
+div{
+	margin: 0;
+	padding: 0;
+}
+
+div div{
+	background-color: #A4CA39; /*Android logo colour*/
+	position: relative;
+}
+
+/*============================================================*/
+.android{
+	height: 808px;
+	width: 668px;
+	margin: 200px auto;
+}
+
+/*============================================================*/
+.head{
+	width: 440px;
+	height: 200px;
+	top: 64px;
+	border-radius: 220px 220px 0 0;
+
+	-moz-border-radius: 220px 220px 0 0;
+	-webkit-border-radius: 220px 220px 0 0;
+	
+	-webkit-transition: all 0.17s ease-in;
+}
+	.head:hover {
+		-moz-transform: rotate(-4deg) translate(-8px, -16px);
+		-transform: rotate(-4deg) translate(-8px, -16px);
+		-webkit-transform: rotate(-4deg) translate(-8px, -16px);
+	}
+
+	.left_antena{
+		left:100px;
+		transform: rotate(-30deg);
+
+		-moz-transform: rotate(-30deg);
+		-webkit-transform: rotate(-30deg);
+	}
+
+	.right_antena{
+		right: 100px;
+		transform: rotate(30deg);
+		-webkit-transform: rotate(30deg);
+		-moz-transform: rotate(30deg);
+	}
+
+	.left_antena, .right_antena{
+		width: 11px; height: 90px;
+		position: absolute; top: -68px;
+		
+		border-radius: 6px;
+		
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+	
+	}
+
+	.left_eye{
+		left: 100px;
+	}
+
+	.right_eye{
+		right: 100px;
+	}
+
+	.right_eye, .left_eye{
+		background-color: #FFFFFF;
+		height: 39px;
+		width: 39px;
+		top: 83px;
+		position: absolute;
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+
+/*============================================================*/
+.body{
+	top: 80px;
+	height: 368px;
+	width: 440px;
+	border-radius: 0 0 50px 50px
+	-moz-border-radius: 0 0 50px 50px;
+	-webkit-border-radius: 0 0 50px 50px;
+}
+
+	.left_arm{
+		left: -116px;
+	}
+
+	.right_arm{
+		right: -116px;
+	}
+
+	.left_arm, .right_arm{
+		height: 300px;
+		border-radius: 50px;
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 50px;
+	}
+
+	.left_leg{
+		left: 90px;
+	}
+
+	.right_leg{
+		right: 90px;
+	}
+
+	.left_leg, .right_leg{
+		top: 364px;
+		height: 160px;
+		border-radius: 0 0 50px 50px;
+		-moz-border-radius: 0 0 50px 50px;
+		-webkit-border-radius: 0 0 50px 50px;
+	}
+
+	.right_arm, .left_arm, .right_leg, .left_leg{
+		position: absolute;
+		width: 100px;
+		
+	}
