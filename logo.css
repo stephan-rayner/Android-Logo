@@ -1,22 +1,22 @@
-div{
+div {
 	margin: 0;
 	padding: 0;
 }
 
-div div{
+div div {
 	background-color: #A4CA39; /*Android logo colour*/
 	position: relative;
 }
 
 /*============================================================*/
-.android{
+.android {
 	height: 808px;
 	width: 668px;
 	margin: 200px auto;
 }
 
 /*============================================================*/
-.head{
+.head {
 	width: 440px;
 	height: 200px;
 	top: 64px;
@@ -33,7 +33,7 @@ div div{
 		-webkit-transform: rotate(-4deg) translate(-8px, -16px);
 	}
 
-	.left_antena{
+	.left_antena {
 		left:100px;
 		transform: rotate(-30deg);
 
@@ -41,14 +41,14 @@ div div{
 		-webkit-transform: rotate(-30deg);
 	}
 
-	.right_antena{
+	.right_antena {
 		right: 100px;
 		transform: rotate(30deg);
 		-webkit-transform: rotate(30deg);
 		-moz-transform: rotate(30deg);
 	}
 
-	.left_antena, .right_antena{
+	.left_antena, .right_antena {
 		width: 11px; height: 90px;
 		position: absolute; top: -68px;
 		
@@ -59,15 +59,15 @@ div div{
 	
 	}
 
-	.left_eye{
+	.left_eye {
 		left: 100px;
 	}
 
-	.right_eye{
+	.right_eye {
 		right: 100px;
 	}
 
-	.right_eye, .left_eye{
+	.right_eye, .left_eye {
 		background-color: #FFFFFF;
 		height: 39px;
 		width: 39px;
@@ -79,7 +79,7 @@ div div{
 	}
 
 /*============================================================*/
-.body{
+.body {
 	top: 80px;
 	height: 368px;
 	width: 440px;
@@ -88,30 +88,30 @@ div div{
 	-webkit-border-radius: 0 0 50px 50px;
 }
 
-	.left_arm{
+	.left_arm {
 		left: -116px;
 	}
 
-	.right_arm{
+	.right_arm {
 		right: -116px;
 	}
 
-	.left_arm, .right_arm{
+	.left_arm, .right_arm {
 		height: 300px;
 		border-radius: 50px;
 		-moz-border-radius: 25px;
 		-webkit-border-radius: 50px;
 	}
 
-	.left_leg{
+	.left_leg {
 		left: 90px;
 	}
 
-	.right_leg{
+	.right_leg {
 		right: 90px;
 	}
 
-	.left_leg, .right_leg{
+	.left_leg, .right_leg {
 		top: 364px;
 		height: 160px;
 		border-radius: 0 0 50px 50px;
@@ -119,8 +119,7 @@ div div{
 		-webkit-border-radius: 0 0 50px 50px;
 	}
 
-	.right_arm, .left_arm, .right_leg, .left_leg{
+	.right_arm, .left_arm, .right_leg, .left_leg {
 		position: absolute;
 		width: 100px;
-		
 	}
